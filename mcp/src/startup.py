@@ -73,3 +73,7 @@ def _load_page_images_into_weaviate_collection(weaviate_sync_client):
             elapsed = time.perf_counter() - time_start
             rate = total / max(elapsed, 1e-9)
             print(f"\033[92mInserted {total} objects ({elapsed:.1f}s, {rate:.1f} objs/s)\033[0m")
+    
+if __name__ == "__main__":
+    print("Here")
+    startup()
