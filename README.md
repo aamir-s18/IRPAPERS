@@ -33,6 +33,17 @@ A Visual Document Benchmark for Scientific Retrieval and Question Answering.
 | 8 | No Retrieval Baseline | — | 0.16 | 173 | 135 |
 | 9 | Hard Negative Image Context (k=1) | Image | 0.12 | 1,233 | 134 |
 
-## IRPAPERS-MCP (Coming Soon) ⚠️
+## Citation
+Please consider citing our paper if you find this work useful:
 
-## News 📯
+```bibtex
+@misc{shorten2024,
+      title={IRPAPERS: A Visual Document Benchmark for Scientific Retrieval and Question Answering}, 
+      author={Connor Shorten and Augustas Skaburskas and Daniel M. Jones and Charles Pierse and Roberto Esposito and John Trengrove and Etienne Dilocker and Bob van Luijt},
+      year={2026},
+      eprint={2602.17687},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/pdf/2602.17687}, 
+}
+```
